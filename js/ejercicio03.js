@@ -17,7 +17,6 @@ function movMuse(e){
     var cy=e.screenY
     nav1.innerHTML="Navegador: { "+nx+", "+ny+" }"
     cli1.innerHTML="Cliente: { "+cx+", "+cy+" }"
-    numero.style.display="none"
     raton.style.display="none"
     tecla.style.display="none"
     radio.style.display="block"
@@ -30,7 +29,6 @@ function clc(e){
     var cy=e.screenY
     nav2.innerHTML="Navegador: { "+nx+", "+ny+" }"
     cli2.innerHTML="Cliente: { "+nx+", "+ny+" }"
-    numero.style.display="none"
     radio.style.display="none"
     tecla.style.display="none"
     raton.style.display="block"
@@ -40,7 +38,6 @@ function tacla(e){
     var codeValue = event.keyCode;
     char.innerHTML="Carácter: { "+key+" }"
     cod.innerHTML="Código: { "+codeValue+" }"
-    numero.style.display="none"
     radio.style.display="none"
     raton.style.display="none"
     tecla.style.display="block"
