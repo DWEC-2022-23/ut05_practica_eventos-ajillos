@@ -1,3 +1,19 @@
+//Ej1
+#caja{
+    width: 35%;
+    border: solid;
+    border-radius: 20px;
+    display:flex ;
+    justify-content: center;
+}
+#nm{
+    font-size: 20px;
+
+}
+
+//Ej2
+
+
 //Ej3
 body{
     width: 100%;
