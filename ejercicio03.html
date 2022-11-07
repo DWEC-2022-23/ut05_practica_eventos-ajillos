@@ -1,15 +1,27 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset=utf-8 />
-    <title>Ejercicio 03 Usando event</title>
-    <link rel="stylesheet" href="css/estilo.css"></style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
-
-<body>
-    <div id="info"></div>
-    <script type="" src="js/ejercicio03.js"></script>
+<body onmousemove="movMuse(event)" || onclick="clc(event)" || onkeydown="tacla(event)">
+    <div id="radio">
+        <h2>Radio</h2>
+        <p id="coorNav1">Navegador</p>
+        <p id="coorClien1">Cliente</p>
+    </div>
+    <div id="raton">
+        <h2>Raton</h2>
+        <p id="coorNav2">Navegador</p>
+        <p id="coorClien2">Cliente</p>
+    </div>
+    <div id="tecla">
+        <h2>Teclado</h2>
+        <p id="char">Carácter</p>
+        <p id="cod">Código</p>
+    </div>
 </body>
-
+<script src="js/ejercicio03.js"></script>
 </html>
