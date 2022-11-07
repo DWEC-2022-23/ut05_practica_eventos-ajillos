@@ -28,7 +28,7 @@ function clc(e){
     var cx=e.screenX
     var cy=e.screenY
     nav2.innerHTML="Navegador: { "+nx+", "+ny+" }"
-    cli2.innerHTML="Cliente: { "+nx+", "+ny+" }"
+    cli2.innerHTML="Cliente: { "+cx+", "+cy+" }"
     radio.style.display="none"
     tecla.style.display="none"
     raton.style.display="block"
